@@ -1,172 +1,33 @@
-<!DOCTYPE html>
 <html>
 <head>
-<title>Home</title>
-<!-- MY STUFF -->
-<link href="base.css" rel="stylesheet">
-<!-- END STUFF -->
-<!-- JQUERY -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-<!-- END -->
-<!-- BOOTSTRAP -->
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-<!-- END -->
+
+	<link href='http://fonts.googleapis.com/css?family=Passion+One' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="style.css">
+	<meta charset="UTF-8">
+
+	<link rel="shortcut icon" href="favicon.ico">
+	<title>Lochie Cameron</title>
 </head>
 <body>
-<div id="wrapper">
-<!-- BREAK THE CONTENT UP FROM THE TOP -->
-<div id ="top_break">
-<!-- TITLE BELOW -->
-<div id="title">Mums Shoes</div>
-<div id="subtitle">Developed by Lachlan Cameron</div>
-
-<!-- TABS HERE PLEASE -->
-<div>
-
-  <!-- Nav tabs -->
-  <ul class="nav nav-tabs" role="tablist">
-    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
-    <li class="dropdown">
-      <a class="dropdown-toggle" data-toggle="dropdown" href="#">Summer <span class="caret"></span></a>
-      <ul class="dropdown-menu">
-        <li><a href="#sflats" aria-controls="sflats" data-toggle="tab">Flats</a></li>
-        <li><a href="#sheels" aria-controls="sheels" data-toggle="tab">High Heels</a></li>
-        <li><a href="#swedges" aria-controls="swedges" data-toggle="tab">Wedges</a></li>                       
-      </ul>
-    </li>
-
-
-    <li class="dropdown">
-      <a class="dropdown-toggle" data-toggle="dropdown" href="#">Winter <span class="caret"></span></a>
-      <ul class="dropdown-menu">
-        <li><a href="#wflats" data-toggle="tab">Flats</a></li>
-        <li><a href="#wheels" data-toggle="tab">High Heels</a></li>
-        <li><a href="#wwedges" data-toggle="tab">Wedges</a></li>                        
-      </ul>
-    </li>
-
-
-   <li class="dropdown">
-      <a class="dropdown-toggle" data-toggle="dropdown" href="#">Going Out <span class="caret"></span></a>
-      <ul class="dropdown-menu">
-        <li><a href="#gflats" data-toggle="tab">Flats</a></li>
-        <li><a href="#gheels" data-toggle="tab">High Heels</a></li>
-        <li><a href="#gwedges" data-toggle="tab">Wedges</a></li>                        
-      </ul>
-    </li>
-
-  <li class="dropdown">
-  	<a class="dropdown-toggle" data-toggle="dropdown" href="#">Colours <span class="caret"></span></a>
-  	<ul class="dropdown-menu">
-  		<li><a href="#black" data-toggle="tab">Black</a></li>
-  		<li><a href="#white" data-toggle="tab">White</a></li>
-  		<li><a href="#pink" data-toggle="tab">Pink</a></li>
-  		<li><a href="#red" data-toggle="tab">Red</a></li>
-  	</ul>
-  </li>
-
-
-	<li class="dropdown">
-	<a class="dropdown-toggle" data-toggle="dropdown" href="#">Brands <span class="caret"></span></a>
-	<ul class="dropdown-menu">
-		<li><a href="#sportscraft" data-toggle="tab">Sportscraft</a></li>
-		<li><a href="#witchery" data-toggle="tab">Witchery</a></li>
-		<li><a href="#witner" data-toggle="tab">Witner</a></li>
-		<li><a href="#ninewest" data-toggle="tab">NineWest</a></li>
-	</ul>
-   </li>
-  </ul>
-  <!-- Tab panes -->
-  <!-- ALL SHOES -->
-  <div class="tab-content">
-    <div role="tabpanel" class="tab-pane fade in active" id="home">
-    <div id="fwrap">
-    	<div class="fotorama" data-width:"200"  data-height="500" data-click="true" data-fit="contain" data-loop="true" data-autoplay="true" data-transition="crossfade" data-keyboard="true">
- 		 <img src="all/01.jpg">
- 		 <img src="all/03.jpg">
- 		 <img src="all/04.jpg">
-  		 <img src="all/05.jpg">
+	<div id="title">
+	Lochie Cameron
 	</div>
-	</div>
-
-    </div>
-    <!-- END ALL SHOES -->
-    <!-- SUMMER SHOES -->
-    <div role="tabpanel" class="tab-pane fade" id="sflats">
-    	<div class="fotorama" data-height="500" data-click="true" data-fit="contain" data-loop="true" data-transition="crossfade" data-keyboard="true">
-    		<img src="/all/01.jpg">
-    		<img src="/all/05.jpg">
-    	</div>	
-    </div>
-    <div role="tabpanel" class="tab-pane fade" id="sheels">Summer Heels</div>
-    <div role="tabpanel" class="tab-pane fade" id="swedges"></div>
-    <!-- END SUMMER SHOES -->
-    <!-- WINTER SHOES -->
-    <div role="tabpanel" class="tab-pane fade" id="wflats">Winter Flats</div>
-    <div role="tabpanel" class="tab-pane fade" id="wheels">Winter Heels</div>
-    <div role="tabpanel" class="tab-pane fade" id="wwedges">Winter Wedges</div>
-    <!-- END WINTER SHOES -->
-    <!-- GOING OUT SHOES -->
-    <div role="tabpanel" class="tab-pane fade" id="gflats">Going out flats</div>
-    <div role="tabpanel" class="tab-pane fade" id="gheels">Going out heels</div>
-    <div role="tabpanel" class="tab-pane fade" id="gwedges">Going out wedges</div>
-    <!-- END GOING OUT SHOES -->
-    <!-- COLOUR -->
-    <div role="tabpanel" class="tab-pane fade" id="black">Black</div>
-    <div role="tabpanel" class="tab-pane fade" id="white">White</div>
-    <div role="tabpanel" class="tab-pane fade" id="pink">Pink</div>
-    <div role="tabpanel" class="tab-pane fade" id="red">Red</div>
-    <!-- END COLOUR -->
-    <!-- BRAND -->
-    <div role="tabpanel" class="tab-pane fade" id="sportscraft">
-    <h2>Sportscraft</h2>
-    	<div class="fotorama" data-height="500" data-click="true" data-fit="contain" data-loop="true">
-    	<img src="/brands/sportscraft/01.jpg">
-    	</div>
-    </div>
-    <div role="tabpanel" class="tab-pane fade" id="witchery">
-    <h2>Witchery</h2>
-    	<div class="fotorama" data-height="500" data-click="true" data-fit="contain" data-loop="true">
-    	<img src="brands/witchery/01.jpg">
-    	</div>
-    </div>
-    <div role="tabpanel" class="tab-pane fade" id="witner">
-    <h2>Witner</h2>
-    	<div class="fotorama" data-height="500" data-click="true" data-fit="contain" data-loop="true">
-    	<img src="/brands/witner/01.jpg">
-    	</div>
-    </div>
-    <div role="tabpanel" class="tab pane fade" id="ninewest">
-    <h2>NineWest</h2>
-    	<div class="fotorama" data-height="500" data-click="true" data-fit="contain" data-loop="true">
-    	<img src="/brands/ninewest/01.jpg">
-    </div>
-    <!-- END BRAND -->
-  </div>
-
+	<div id="blurb">
+	<p>Im a young passionate developer waiting for my chance to change the world.<br>
+i love simplicity and elegance, thinking out side the box,<br> public speaking and working with others to create beautiful products.
+</p>
 </div>
+	<div id="socialmedias">
+<a href="http://plus.google.com/u/0/105371424802469977904/posts"> <img="gplus.png" height="82" width="82"> <alt="Google+">
+</a>
 
-<!-- END TABS -->	
+<a class="sm" href="http://www.facebook.com/lochie.cameron"> <img src="facebook.png" height="82" width="82"> <alt="Facebook"></a>
 
+<a class="sm" href="http://bit.ly/1cgkz1D"> <img src="google.png" height="82" width="82"> <alt="Google"></a>
+<a class="sm" href="http://lochiecameron.tumblr.com"> <img src="tumblr.png" height="82" width="82"> <alt="Tumblr"></a>
+<a class="sm" href="mail.html"> <img src="mail.png" height="82" width="82"> <alt="Mail"></a>
 </div>
-<!-- END BREAK -->
-<!-- FOTORAMA -->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
-<link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet"> 
-<script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script> 
-<!-- Images -->
-</div>
-<script>
-$('#myTabs a').click(function (e) {
-  e.preventDefault()
-  $(this).tab('show')
-})
-</script>
+<div id="v">V 3.0</div>
 </body>
 </html>
-

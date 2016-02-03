@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>E-Mail</title>
+<meta charset="utf-8">
+<style>
+  body {
+  background: url(bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 2565px, 1440px;
+
+}
+  }
+  input {
+      cursor: default;
+      border: 0;
+      padding: 10px;
+      font-size: 30px;
+      background-color: #58ACFA;
+    }
+
+    input[type="submit"] {
+      cursor: pointer;
+      background: #58ACFA;
+      color: white;
+      }
+    input[type="reset"] {
+      cursor: pointer;
+      background: #58ACFA;
+      color: white;
+      }
+    #email {
+	  text-align: center;
+	  padding-top: 150px;
+	  color: white;
+	  font-family: arial; 	
+    }
+    #title {
+    	color: white;
+    	font-family: arial;
+    	text-align: center;
+    	font-style: bold;
+    	font-weight: bold;
+    	font-size: 40px;
+    }
+</style>
+</head>
+<body>
+<div id="title">E-Mail Lochie</div>
+<div id="email">
+<form action="MAILTO:lochiecameron@gmail.com" method="post" enctype="text/plain">
+Name:<br>
+<input type="text" name="name" value="" Placeholder="Name"><br>
+E-mail:<br>
+<input type="text" name="mail" value="" Placeholder="Your E-Mail"><br>
+Comment:<br>
+<input type="text" name="Comment" value="" size="50" placeholder="Message"><br><br>
+<input type="submit" value="Send">
+<input type="reset" value="Reset" onclick="location.reload(true);">
+</form>
+</div>
+
+</body>
+</html>
